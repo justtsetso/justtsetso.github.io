@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+body{
+    background-image: url(https://previews.123rf.com/images/merzavka/merzavka1008/merzavka100800318/7618793-water-bubbles-on-the-window-for-background.jpg);
+}
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #d8f7ff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.product1{
+    color:aliceblue;
+    height: 150px;
+    text-align: center;
+    flex-direction: row;
+    padding: 100px;
+}
+.product2{
+    color:aliceblue;
+    height: 150px;
+    flex-direction: row;
+    padding: 100px;
+}
+
+.product3{
+    color:aliceblue;
+    height: 150px;
+    text-align: center;
+    flex-direction: row;
+    padding: 100px;
+}
+@media (min-width:577px) and (max-width: 800px) {
+
+    .section-intro {
+        height: 500px;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section-intro {
+        height: 300px;
+    }
+
+    .about-section {
+        padding: 30px;
+    }
+
+    .section-intro h1 {
+        font-size: 2em;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 15px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-flex h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .form-group p {
+        font-size: 15px;
+    }
+
+    .opening-time p span,
+    .contact-adress p span {
+        font-size: 15px;
+        text-align: center;
+    }
+}
